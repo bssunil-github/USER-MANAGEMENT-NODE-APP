@@ -1,0 +1,35 @@
+{
+  "name": "user-management-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node backend/server.ts",
+    "dev":"nodemon backend/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bssunil-github/USER-MANAGEMENT-NODE-APP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bssunil-github/USER-MANAGEMENT-NODE-APP/issues"
+  },
+  "homepage": "https://github.com/bssunil-github/USER-MANAGEMENT-NODE-APP#readme",
+  "dependencies": {
+    "colors.ts": "^1.0.20",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.9",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
